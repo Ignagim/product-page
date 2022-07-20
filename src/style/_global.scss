@@ -1,0 +1,19 @@
+$color-primary-1: hsl(26, 100%, 55%);
+$color-primary-2: hsl(25, 100%, 94%);
+$color-dark-1:  hsl(220, 13%, 13%);
+$color-medium-1: hsl(219, 9%, 45%);
+$color-light-1: hsl(220, 14%, 75%);
+$color-lighter-1: hsl(223, 64%, 98%);
+$color-lightest: hsl(0, 0%, 100%);
+$color-darkest: hsla(0, 0%, 0%, 0.76);
+$font-1: 'Kumbh Sans', sans-serif;
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}

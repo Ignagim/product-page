@@ -1,0 +1,53 @@
+.addProduct {
+    margin: 0px 10%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-family: $font-1;
+
+    &__counter {
+        background: $color-lighter-1;
+        border-radius: 10px;
+        padding: 0 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__btn {
+        padding: 20px;
+        border: none;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        font-size: 20px;
+        font-weight: 400;
+        font-family: $font-1;
+        color: $color-lightest;
+        background: $color-primary-1;
+        img {
+            color: $color-lightest;
+            margin-right: 20px;
+        }
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .addProduct {
+        margin-top: -20px;
+        padding-bottom: 100px;
+        align-items: center;
+        justify-content: flex-end;
+        flex-direction: row;
+        &__counter {
+            width: 10vw;
+            margin-bottom: 20px;
+            img {
+                cursor: pointer;
+            }
+        }
+        &__btn {
+            width: 25vw;
+            cursor: pointer;
+        }
+    }
+}

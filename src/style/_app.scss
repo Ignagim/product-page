@@ -1,0 +1,14 @@
+.product__container {
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (min-width: 1400px) {
+    .product__container {
+        padding-bottom: 10px;
+        height: 60vh;
+        margin-top: 50px;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+}
