@@ -11,7 +11,7 @@ body {
   flex-direction: column;
 }
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1100px) {
   .product__container {
     padding-bottom: 10px;
     height: 60vh;
@@ -182,7 +182,7 @@ body {
   display: none;
 }
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1100px) {
   .nav {
     justify-content: space-between;
     height: 180px;
@@ -277,7 +277,7 @@ body {
   display: none;
 }
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1100px) {
   .productImg {
     display: flex;
     max-width: 35%;
@@ -421,7 +421,7 @@ body {
   color: hsl(220deg, 14%, 75%);
 }
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1100px) {
   .productInfo {
     display: flex;
     flex-direction: column;
@@ -472,7 +472,7 @@ body {
   margin-right: 20px;
 }
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1100px) {
   .addProduct {
     margin-top: -20px;
     padding-bottom: 100px;
